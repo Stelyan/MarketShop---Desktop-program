@@ -21,9 +21,9 @@ namespace MarketShopp
         {
             string getUsername = usernameBox.Text;
             string getPassword = passwordBox.Text;
-            if (getUsername == "Admin")
+            if (getUsername == "Administrator")
             {
-                if (getPassword == "admin321")
+                if (getPassword == "admin3210")
                 {
                     this.Hide();
                     AdminAccount adminForm = new AdminAccount();
