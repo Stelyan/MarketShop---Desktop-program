@@ -10,9 +10,11 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace MarketShopp
-{
+{ 
     public partial class AdminAccount : Form
     {
+        private string test = "Test field_01";
+
         List<Category> allCategories = new List<Category>();
         List<Products> allProducts = new List<Products>();
 
